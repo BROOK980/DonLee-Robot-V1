@@ -5,7 +5,8 @@
 class Translation(object):
     
     START_TEXT = """<b>🙋‍♂️Hey {}!!</b>
-<b>Am Just A Donlee Adv Auto Filter Bot....😉</b>
+<b>𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 ബണ്ടു ᴹᴹ ᴳᴿᴼᵁᴾ </b>
+@MMCINEMACHAKKU
 
 <b>Just Add Me To Your Group And Channel And Connect Them And See My Pevers 🔥🔥😝</b>
 <b>Watch the video below to build an DonLee Adv Autofilter bot like me...</b>
@@ -42,16 +43,16 @@ class Translation(object):
             
             -> <code>Status</code> - Button Will Shows The Stats Of Your Channel
             
-@Mo_Tech_YT
+@MMCINEMACHAKKU
 """
     
-    ABOUT_TEXT = """<b>➥ Name</b> : <code> Auto Filter Bot</code>
+    ABOUT_TEXT = """<b>➥ Name</b> : <code> ബണ്ടു ᴹᴹ ᴳᴿᴼᵁᴾ</code>
     
-<b>➥ Creator</b> : <b><i><a href="https://t.me/Mrk_YT">Muhammed Rk</a></i></b>
+<b>➥ Creator</b> : <b><i><a href="https://t.me/malayali00l">suneeshDeezuzza</a></i></b>
 
 <b>➥ Language</b> : <code>Python3</code>
 
 <b>➥ Library</b> : <i><a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a></i>
 
-<b>➥ Source Code</b> : <i><a href="https://github.com/PR0FESS0R-99/DonLee_Robot">Click Me</a></i>
+<b>➥ update channel</b> : <i><a href="https://t.me/+NfYnzDbRM-ZhMTQ1">Click Me</a></i>
 """
