@@ -96,7 +96,7 @@ async def cb_navg(bot, update: CallbackQuery):
 
     if not int(index_val) == 0:    
         temp_results.append([
-            InlineKeyboardButton(f"🔰 Page {index_val + 1}/{len(results) if len(results) < max_pages else max_pages} 🔰", callback_data="ignore")
+            InlineKeyboardButton(f"📚 Page {index_val + 1}/{len(results) if len(results) < max_pages else max_pages} 📚", callback_data="ignore")
         ])
     
     if show_invite and int(index_val) !=0 :
@@ -1602,14 +1602,14 @@ async def cb_about(bot, update: CallbackQuery):
     text=f"<i><u>Bot's Status</u></i>\n"
     text+=f"\n<b><i>Bot's Uptime:</i></b> <code>{time_formatter(time.time() - start_uptime)}</code>\n"
     text+=f"\n<b><i>Bot Funtion:</i></b> <i>Auto Filter Files</i>\n"
-    text+=f"""\n<b><i>Bot Support:</i></b> <a href="https://t.me/Mo_Tech_Group">@Mo_Tech_Group</a>\n"""
-    text+="""\n<b><i>Source Code:</i></b> <a href="https://github.com/PR0FESS0R-99/DonLee_Robot">Source</a>"""
+    text+=f"""\n<b><i>Bot Support:</i></b> <a href="">Bot Support</a>\n"""
+    text+="""\n<b><i>UPDATES CHANNEL:</i></b> <a href="https://t.me/+NfYnzDbRM-ZhMTQ1">Source</a>"""
 
     buttons = [
         [
             InlineKeyboardButton
                 (
-                    "My Dev ⚡", url="https://t.me/MRK_YT"
+                    "join Our Group 💞", url="https://t.me/MM_CINEMA_CLUB_GROUP"
                 ),
                 
             InlineKeyboardButton
@@ -1640,14 +1640,14 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/Mrk_YT'),
-            InlineKeyboardButton('Source Code 🧾', url ='https://github.com/PR0FESS0R-99/DonLee-Robot-V1')
+            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/cinemaclubcc'),
+            InlineKeyboardButton('UPDATES CHANNEL 💞', url ='https://t.me/+NfYnzDbRM-ZhMTQ1')
         ],[
-            InlineKeyboardButton('🛠 Support 🛠', url='https://t.me/mo_Tech_yt')
+            InlineKeyboardButton('🛠 Support Group 🛠', url='https://t.me/+xVLXMjF8dvoxNTc1')
         ],[
             InlineKeyboardButton('⚙ Help ⚙', callback_data="help")
         ],[
-            InlineKeyboardButton('💫 Deploy Video 💫', url='https://youtu.be/uAHl5jvnrhk')
+            InlineKeyboardButton('💫 Join Our Channel 💫', url='https://t.me/malayali00l')
         ]]
     
         reply_markup = InlineKeyboardMarkup(buttons)
